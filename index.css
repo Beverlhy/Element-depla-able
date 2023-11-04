@@ -1,0 +1,41 @@
+body{
+    margin: 0%;
+    background: linear-gradient(#045a69,rgb(75,84,85));
+    background-repeat:no-repeat ;
+    height: 100vh;
+}
+#forme{
+    position: absolute;
+    background-color: rgb(54, 11, 5);
+    top: 10%;
+    width: 50%;
+    left: 25%;
+    height: 80%;
+    border-radius: 15px;
+}
+.placer{
+    background-color: rgb(255, 255, 255);
+    height: 90%;
+    margin: 4%;
+    text-align: center;
+    border-radius: 15px;
+}
+h1{
+    margin: 0%;
+    background-color: rgb(8, 28, 46);
+    color: aliceblue;
+    border-radius: 10px;
+} 
+.liste{
+    width: 98%;
+    height: 8%;
+    background-color: rgb(7, 7, 7);
+    margin: 2% 1%;
+    padding-top: 4%;
+    border-radius: 15px;
+    color:white ; transition: all 0.9s;
+    cursor:grabbing;
+}
+.bouger{
+    opacity: 0.1;
+}
